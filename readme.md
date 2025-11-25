@@ -12,8 +12,6 @@ A web-based tool to estimate your engineering college admission chances by the J
   - [Cutoff Generation](#cutoff-generation)
   - [Prediction Logic](#prediction-logic)
 - [Frontend & Experience](#frontend-experience)
-- [Getting Started](#getting-started)
-- [Why It’s Personal](#why-it’s-personal)
 - [Future Ideas](#future-ideas)
 
 ---
@@ -22,12 +20,12 @@ A web-based tool to estimate your engineering college admission chances by the J
 The **JEE College Predictor** is a web app that helps you figure out your chances of getting into engineering colleges based on your JEE rank, exam type and reservation category.
 I built it using Flask and SQLite, implementing html and css, using llm and ai based data synthesis and predictions and using python for the main logic.
 This became sort of a culmination of my two favorite problem sets in cs50: Fiftyville and Finance as well as hints of David's Froshims code.
-Being stuck on Finance problem for more than two weeks taught quite a lot which then helped me extrapolate the same concepts and use them for this project. Initially I tried to create a similar app using real data from josaa which was of no avail as I was unable to scrape the historical data and use the logic in a js script(I am very uncomfortable with java).
+Being stuck on Finance problem for more than two weeks taught quite a lot which then helped me extrapolate the same concepts and use them for this project. Initially I tried to create a similar app using real data from josaa which was of no avail as I was unable to scrape the historical data and use the logic in a js script(I am not very uncomfortable with java).
 
 ---
 
 ## Why I Built It
-I’ve been in the shoes of a JEE aspirant—making spreadsheets, combing forums, guessing cutoffs, stressing. I realised a lot of students go through the same worry-cycle. During the CS50 course from Harvard I learned how to build tools that matter. So this project is me combining the student stress I knew with the knowledge I gained.
+I’ve been in the shoes of a JEE aspirant: making spreadsheets, combing forums, guessing cutoffs, stressing. I realised a lot of students go through the same worry-cycle. During the CS50 course from Harvard I learned how to build tools that matter. So this project is me combining the student stress I knew with the knowledge I gained.
 
 
 ---
@@ -84,9 +82,3 @@ Then, results are shown grouped by (institute, branch) across years, giving you:
 - Flask
 - SQLite
 
-### Installation & Setup
-```bash
-git clone https://github.com/your-username/jee-college-predictor.git
-cd jee-college-predictor
-python init_db.py
-python app.py
