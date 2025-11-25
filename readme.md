@@ -32,7 +32,7 @@ I’ve been in the shoes of a JEE aspirant: making spreadsheets, combing forums,
 
 ## Design & Vibe
 Intentionally simple, functional, and easy on the eyes. Reminds me of the 2010s webpage era.
-Although I think that it can be better designed using bootstrap and templates, I love the antique vibe of the design(also I am just not that interested in design and aesthetics as I naturally suck at them)
+Although I think that it can be better designed using bootstrap and templates, I love the antique vibe of the design(also I am just not that interested in design and aesthetics as I naturally suck at it)
 
 ---
 
@@ -75,7 +75,14 @@ Then, results are shown grouped by (institute, branch) across years, giving you:
 
 ---
 
-## Getting Started
+## Future Extensions
+
+- Integration with real JoSAA APIs for live cutoff data.
+- Comparison tools 
+- Bookmarking and sharing of results.
+- Trend visualization across years.
+- Multi-exam comparison (JEE vs BITSAT vs VITEEE) as well as extending to a general college guidance personalized for Indian students.
+
 
 ### Prerequisites
 - Python
