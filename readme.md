@@ -12,7 +12,8 @@ A web-based tool to estimate your engineering college admission chances by the J
   - [Cutoff Generation](#cutoff-generation)
   - [Prediction Logic](#prediction-logic)
 - [Frontend & Experience](#frontend-experience)
-- [Future Ideas](#future-ideas)
+- [Limitations & Introspections](#limitations-and-introspection)
+- [Future Extensions](#future-ideas)
 
 ---
 
@@ -25,14 +26,14 @@ Being stuck on Finance problem for more than two weeks taught quite a lot which 
 ---
 
 ## Why I Built It
-I’ve been in the shoes of a JEE aspirant: making spreadsheets, combing forums, guessing cutoffs, stressing. I realised a lot of students go through the same worry-cycle. During the CS50 course from Harvard I learned how to build tools that matter. So this project is me combining the student stress I knew with the knowledge I gained.
+I’ve been in the shoes of a JEE aspirant—making spreadsheets, combing forums, guessing cutoffs, stressing. I realised a lot of students go through the same worry-cycle. During the CS50 course from Harvard I learned how to build tools that matter. So this project is me combining the student stress I knew with the knowledge I gained.
 
 
 ---
 
 ## Design & Vibe
 Intentionally simple, functional, and easy on the eyes. Reminds me of the 2010s webpage era.
-Although I think that it can be better designed using bootstrap and templates, I love the antique vibe of the design(also I am just not that interested in design and aesthetics as I naturally suck at it)
+Although I think that it can be better designed using bootstrap and templates, I love the antique vibe of the design(also I am just not that interested in design and aesthetics as I naturally suck at them)
 
 ---
 
@@ -74,18 +75,15 @@ Then, results are shown grouped by (institute, branch) across years, giving you:
 - Error checking and user-friendly messages
 
 ---
-
+## Limitations and Introspection
+- Due to having limited experience with web-developing and coding in general, I was not able to fully implement the features that I saw the vision for. Looking to implement a real and live self updating database in sync with JOSAA's official website, adding AI helpers and javascript logic to my web application remained too inaccessible for me; such that I decided to transform this into a different mathematical problem of data generation instead. The web application simulates real josaa data(from 2022-2024) for which hueristic values and linear regression seemed fitting.
+Hopefully with increasing expereince in web-dev and coding I will take this project to it's fullest potential
+-The second drawback is that the data generated is not exhaustive and doesn't cover all the branches neither does it cover all the possible probabilities;However, with that said I am quite proud of this application as this was my first experience with programming and computer science.
+It provided me with a lot of new insights, ways of thinking and new passions.
 ## Future Extensions
-
 - Integration with real JoSAA APIs for live cutoff data.
-- Comparison tools 
+- Comparison tools
 - Bookmarking and sharing of results.
 - Trend visualization across years.
-- Multi-exam comparison (JEE vs BITSAT vs VITEEE) as well as extending to a general college guidance personalized for Indian students.
-
-
-### Prerequisites
-- Python
-- Flask
-- SQLite
+- Multi-exam comparison (JEE vs BITSAT vs VITEEE) as well as extending to a general college guidance personalized for Indian students
 
