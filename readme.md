@@ -1,7 +1,12 @@
 # JEE College Predictor
 
 A web-based tool to estimate your engineering college admission chances by the JEE(Joint Entrance Examination)
+
+
+## Video Demo
+#### url: https://youtube.com/shorts/sB3G5gfrkRA
 ---
+## Description
 
 ## Table of Contents
 - [Overview](# Overview)
@@ -38,6 +43,11 @@ Although I think that it can be better designed using bootstrap and templates, I
 ---
 
 ## How It Works
+- run  `python init_db.py` to create a database
+- run  `python app.py`     to run the application
+- open host server
+- input rank, category and exam type
+- output: List of colleges with branches along with chances of admission to the colleges
 
 ### Database & Schema
 - `institutes` table: colleges (IITs, NITs,IIITs, GFTIs) with metadata.
